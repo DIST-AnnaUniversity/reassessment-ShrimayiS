@@ -1,0 +1,34 @@
+{
+  "tests": [
+    {
+      "name": "maxcount",
+      "setup": "sudo -H pip3 install scikit-learn; sudo -H pip3 install numpy; sudo -H pip3 install pandas",
+      "run": "python3 maxcount.py",
+      "input": "",
+      "output": "2",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 5
+    },
+    {
+      "name": "acc_linear",
+      "setup": "sudo -H pip3 install scikit-learn; sudo -H pip3 install numpy; sudo -H pip3 install pandas",
+      "run": "python3 acc_linear.py",
+      "input": "",
+      "output": "96.0",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
+    },
+    {
+      "name": "acc_rbf",
+      "setup": "sudo -H pip3 install scikit-learn; sudo -H pip3 install numpy; sudo -H pip3 install pandas",
+      "run": "python3 acc_rbf.py",
+      "input": "",
+      "output": "96.0",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
+    }
+  ]
+}
